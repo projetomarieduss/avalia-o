@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Crie aqui seu css -->
+    <title>Document</title>
+</head>
+<body>	
+    <!--nav-->
+    <nav class="navbar navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Offcanvas navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#prim">INICIO</a>
+                </li>
+                <li class="nav-item">
+                 <a class="nav-link active" aria-current="page" href="#cai">CAIXINHA DE TEXTO</a>
+                </li>
+                <li class="nav-item">
+                 <a class="nav-link active" aria-current="page" href="#accordionFlushExample">CONTEUDO OCULTO</a>
+                </li>
+                <li class="nav-item">
+                 <a class="nav-link active" aria-current="page" href="#port">PORTIFOLIO</a>
+                </li>
+                <li class="nav-item">
+                 <a class="nav-link active" aria-current="page" href="#contato">CONTATO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#caro">CARROUSSEL</a>
+                 </li>
+                 <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#sobre">SOBRE</a>
+                 </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav> 
+    <!--fim nav-->
+    
+    
+    <!--carrossel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/carrossel/1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrossel/2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrossel/3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!--fim carrossel-->
+    
+<div class="container">
+    <!--uma imagem com texto do lado-->
+    <div class="prim" id="prim" >
+        <div class="row">
+              <div class="col-sm-4">
+               <img src="img/galeria/1.jpg" width="85%">
+            </div>
+            <div class="col-sm-8">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quia asperiores qui explicabo
+                 distinctio quo quae ratione molestiae impedit recusandae eligendi, quidem quis dignissimos ipsum animi atque provident at id.</p>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quia asperiores qui explicabo
+                  distinctio quo quae ratione molestiae impedit recusandae eligendi, quidem quis dignissimos ipsum animi atque provident at id.</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quia asperiores qui explicabo
+                    distinctio quo quae ratione molestiae impedit recusandae eligendi, quidem quis dignissimos ipsum animi atque provident at id.</p>
+             </div>
+        </div>
+      </div> 
+    <!-- fim uma imagem com texto do lado-->
+    
+    
+    <!--sobres-->
+    <div class="sobre" id="sobre">
+      <div class="row">
+            <div class="col-sm-4">
+             <img src="img/icone/1.jpg">
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ab dignissimos neque voluptatem repellat voluptate inventore distinc
+               tio! Illo eveniet, vitae, praesentium voluptatem voluptatum reiciendis ut aliquam quos similique aspernatur iusto.</p>
+          </div>
+          <div class="col-sm-4">
+           <img src="img/icone/2.png">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ab dignissimos neque voluptatem repellat voluptate inventore distinc
+            tio! Illo eveniet, vitae, praesentium voluptatem voluptatum reiciendis ut aliquam quos similique aspernatur iusto.</p>
+           </div>
+          <div class="col-sm-4">
+           <img src="img/icone/3.jpg">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ab dignissimos neque voluptatem repellat voluptate inventore distinc
+            tio! Illo eveniet, vitae, praesentium voluptatem voluptatum reiciendis ut aliquam quos similique aspernatur iusto.</p>
+           </div>
+     </div>
+    <!--fim sobres-->
+</div>
+</div>
+
+
+    <!--carrossel achatado-->
+  <div class="caro" id="caro">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/carrossel.p/3.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/carrossel.p/1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/carrossel.p/2.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+    <!--fim carrossel achatado-->
+    
+    <div class="container">    
+    <!--portifolio-->  
+    <div class="port" id="port">
+     <div class="row">
+           <div class="col-sm-4">
+            <img src="img/galeria/1.jpg" width="95%">
+         </div>
+         <div class="col-sm-4">
+          <img src="img/galeria/2.jpg" width="95%">
+          </div>
+         <div class="col-sm-4">
+          <img src="img/galeria/3.jpg" width="95%">
+          </div>
+     </div>
+     <div class="row">
+        <div class="col-sm-4">
+         <img src="img/galeria/1.jpg" width="95%">
+      </div>
+      <div class="col-sm-4">
+       <img src="img/galeria/2.jpg" width="95%">
+       </div>
+      <div class="col-sm-4">
+       <img src="img/galeria/3.jpg"width="95%">
+       </div>
+  </div>
+    </div>
+    <!--fim portifolio-->
+    <!--Algumas coisas de javas-->
+    <div class="row" id="cai">
+      <div class="col-sm-4">
+        <div id="conteudo">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut odio rem delectus nulla molest
+          iae non voluptate, ratione voluptatum. Error alias atque temporibus nesciunt repellendus dignissimos suscipit distinctio sapiente, voluptate earum?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates fuga atque, itaque error 
+          corrupti molestias accusamus veritatis in eveniet. Mollitia dolor id natus nesciunt quam minima ex cum obcaecati incidunt?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates fuga atque, itaque error 
+              corrupti molestias accusamus veritatis in eveniet. Mollitia dolor id natus nesciunt quam minima ex cum obcaecati incidunt?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates fuga atque, itaque error 
+                  corrupti molestias accusamus veritatis in eveniet. Mollitia dolor id natus nesciunt quam minima ex cum obcaecati incidunt?</p>
+      </div>
+       
+      <a id="mostre_mais">Veja Mais</a>
+    </div>
+    <div class="col-sm-4">
+      <div id="conteudo">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut odio rem delectus nulla molest
+        iae non voluptate, ratione voluptatum. Error alias atque temporibus nesciunt repellendus dignissimos suscipit distinctio sapiente, voluptate earum?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates fuga atque, itaque error 
+        corrupti molestias accusamus veritatis in eveniet. Mollitia dolor id natus nesciunt quam minima ex cum obcaecati incidunt?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates fuga atque, itaque error 
+            corrupti molestias accusamus veritatis in eveniet. Mollitia dolor id natus nesciunt quam minima ex cum obcaecati incidunt?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates fuga atque, itaque error 
+                corrupti molestias accusamus veritatis in eveniet. Mollitia dolor id natus nesciunt quam minima ex cum obcaecati incidunt?</p>
+    </div>
+     
+    <a id="mostre_mais">Veja Mais</a>
+     </div>
+    <div class="col-sm-4">
+      <div id="conteudo">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut odio rem delectus nulla molest
+        iae non voluptate, ratione voluptatum. Error alias atque temporibus nesciunt repellendus dignissimos suscipit distinctio sapiente, voluptate earum?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates fuga atque, itaque error 
+        corrupti molestias accusamus veritatis in eveniet. Mollitia dolor id natus nesciunt quam minima ex cum obcaecati incidunt?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates fuga atque, itaque error 
+            corrupti molestias accusamus veritatis in eveniet. Mollitia dolor id natus nesciunt quam minima ex cum obcaecati incidunt?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates fuga atque, itaque error 
+                corrupti molestias accusamus veritatis in eveniet. Mollitia dolor id natus nesciunt quam minima ex cum obcaecati incidunt?</p>
+    </div>
+     
+    <a id="mostre_mais">Veja Mais</a>
+     </div>  
+   
+   <!--Algumas coisas de javas-->
+     
+    <!--BARRA DE INFORMÇÕES OCULTAS-->
+     <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            informações ocultas
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            informações ocultas
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            informações ocultas
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+        </div>
+      </div>
+    </div>
+    <!--fim BARRA DE INFORMÇÕES OCULTAS-->
+  </div> 
+  </div>
+    
+    <!--contato-->
+<div class="conta" id="contato">
+    <h2>Contato</h2>
+
+<form>
+  <label for="fname">Nome:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">E-mail:</E-mail>:</label><br>
+  <input type="text" id="lname" name="lname" value="">
+</form>
+<form>
+  <h2>Sexo</h2>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">feminino</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">masculino</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">prefiro nao dizer</label>
+</form> 
+
+</div>
+    <!--fim contato-->
+    
+   
+   
+    <!--footer-->
+    <footer>
+     <p>Desenvolvido por Maria Eduarda</p>
+   </footer>
+    <!--fim footer-->
+  
+ 
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
